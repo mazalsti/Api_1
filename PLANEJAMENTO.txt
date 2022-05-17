@@ -1,0 +1,19 @@
+Planejamento
+ - Lista as anotacoes
+ - pegar informacoes de uma anotacoes
+ - Inserir uma anotacoes nova
+ - Atualizar uma anotacao
+ - Deletar uma anotacao
+
+ Qual a estrutura de dados? 
+ - local para armazenar as anotacoes 
+ -- id 
+ -- title
+ -- body
+
+ Quais os endpoints?
+ - (GET)    /api/notes - /api/getall.php
+ - (GET)    /api/note/123 - /api/get.php?id=123
+ - (POST)   /api/note - /api/insert.php (title, body)
+ - (PUT)    /api/note/123 - /api/update.php (id, title, body)
+ - (DELETE) /api/note/123 - /api/delete.php (id)
